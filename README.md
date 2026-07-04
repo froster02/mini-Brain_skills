@@ -16,6 +16,7 @@ Built with and for [Claude Code](https://claude.com/claude-code) by Anthropic.
 | [`/guide`](guide/SKILL.md) | Mentorship | Breaks a process into a walkable, checkpointed sequence of actions the user performs themselves |
 | [`/study`](study/SKILL.md) | Assimilation | Builds a durable mental model of a concept, anchored to what you already know, verified with a self-check |
 | [`/try`](try/SKILL.md) | Experimentation | Produces one rough, disposable attempt fast, to generate a signal rather than a finished answer |
+| [`/bhai`](bhai/SKILL.md) | Companionship | A Delhi-buddy persona for banter and venting, explicit-invoke only — the one skill here that isn't a task mode |
 
 ## Why separate skills, not one combined skill
 
