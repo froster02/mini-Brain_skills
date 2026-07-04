@@ -1,19 +1,15 @@
 ---
 name: idea
 description: >
-  Takes ONE fixed idea and develops it into something concrete — mechanics, dependencies, the
-  sharpest distinctive edge, and the open question left to resolve. Use this skill whenever the
-  user has already landed on a single idea and wants it fleshed out, not multiplied or judged.
-  Trigger on: "/idea", "flesh this out", "develop this idea", "let's build this out", "take this
-  further", "what would this look like in practice", "expand on this", "run with this one", or
-  any prompt where a single concept needs to become real rather than compared against others.
-  This is the elaborative sibling to /brainstorm and /thinking — /brainstorm generates MANY ideas
-  with judgment suspended, /thinking reasons through a decision to a verdict, /idea does neither:
-  it takes exactly ONE idea as a given, never offers alternatives, and never delivers a decision
-  or a should/shouldn't verdict. Its only job is to make the one idea more concrete than it was
-  a minute ago. When in doubt: if the user is choosing between options, use /thinking; if they
-  want more options, use /brainstorm; if they already have the one they want and just want it
-  built out, use /idea.
+  Takes ONE fixed idea and develops it into something concrete — mechanics, dependencies, sharpest
+  edge, and the open question left to resolve. Use whenever the user has already landed on a single
+  idea and wants it fleshed out, not multiplied or judged. Trigger on: "/idea", "flesh this out",
+  "develop this idea", "let's build this out", "take this further", "what would this look like in
+  practice", "expand on this", "run with this one", or any prompt where one concept needs to become
+  real. /brainstorm generates MANY ideas, /thinking reasons to a verdict — /idea takes exactly ONE
+  idea as a given, never offers alternatives, never delivers a verdict. Its only job is making the
+  one idea more concrete. When in doubt: choosing between options means /thinking; wanting more
+  options means /brainstorm; wanting the one they have built out means /idea.
 ---
 
 # Idea
