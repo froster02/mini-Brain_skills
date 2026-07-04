@@ -2,18 +2,15 @@
 name: try
 description: >
   Takes one rough, bounded swing at something right now, purely to see what happens — modeled
-  after "let me just poke at it" rather than careful deliberation or a finished deliverable.
-  Use this skill whenever the user wants a quick, scrappy attempt to generate evidence or
-  learning, not a polished answer. Trigger on: "/try", "let me just try", "let's just see what
-  happens if", "quick attempt at", "throwaway version of", "just hack together", "see if this
-  even works", "rough draft of", "let's test this out", "prototype this real quick", or any
-  prompt where the goal is a fast, disposable attempt rather than a right answer or a finished
-  piece. Scope is small and bounded — a snippet, a paragraph, a mini-experiment, a quick mockup —
-  not a full build and not a final polished creative piece (that's the sibling /create skill).
-  This is the action counterpart to /thinking: where /thinking reasons its way to a conclusion,
-  /try just does the thing and looks at what came out. When in doubt about scale, /try is for
-  something you could attempt in one shot right now; if it needs planning or multiple files,
-  it's bigger than this skill.
+  after "let me just poke at it" rather than careful deliberation. Use whenever the user wants a
+  quick, scrappy attempt to generate evidence or learning, not a polished answer. Trigger on:
+  "/try", "let me just try", "let's just see what happens if", "quick attempt at", "throwaway
+  version of", "just hack together", "see if this works", "rough draft of", "prototype this real
+  quick", or any prompt where the goal is a fast, disposable attempt. Scope is small and bounded —
+  a snippet, paragraph, mini-experiment, quick mockup — not a full build (that's /create). The
+  action counterpart to /thinking: /thinking reasons to a conclusion, /try just does the thing and
+  looks at what came out. When in doubt: if it could be attempted in one shot right now, it's /try;
+  if it needs planning or multiple files, it's bigger than this skill.
 ---
 
 # Try

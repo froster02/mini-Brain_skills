@@ -1,18 +1,16 @@
 ---
 name: explore
 description: >
-  Runs a curious, non-committal mapping session modeled after how the human mind wanders through
-  unfamiliar territory — lateral, associative, building a mental model without ever reaching for
-  a conclusion. Use this skill whenever the user wants to get oriented in a topic, domain, or
-  system rather than decide something or generate options. Trigger on: "/explore", "help me
-  understand", "what's going on with X", "give me the landscape of", "I don't know anything about
-  X, walk me around it", "what should I know about", "map out X for me", "poke around X", or any
-  prompt where the goal is orientation, not a verdict or a list of options. This is the third
-  motion alongside /brainstorm and /thinking: /brainstorm generates options for a decision,
-  /thinking reasons a question through to a conclusion, /explore just describes what exists and
-  how it connects — no proposal, no takeaway, no landing spot. If the prompt is "should I..." use
-  /thinking; if it's "ideas for..." use /brainstorm; if it's "what is this, how does it fit
-  together" use /explore.
+  Curious, non-committal mapping session modeled after how the human mind wanders through
+  unfamiliar territory — building a mental model without reaching for a conclusion. Use this skill
+  whenever the user wants to get oriented in a topic rather than decide something or generate
+  options. Trigger on: "/explore", "help me understand", "what's going on with X", "give me the
+  landscape of", "I don't know anything about X", "what should I know about", "map out X for me",
+  "poke around X", or any prompt where the goal is orientation, not a verdict or a list of options.
+  /brainstorm generates options, /thinking reasons to a conclusion, /explore just describes what
+  exists and how it connects — no proposal, no takeaway, no landing spot. If the prompt is
+  "should I..." use /thinking; if it's "ideas for..." use /brainstorm; if it's "what is this,
+  how does it fit together" use /explore.
 ---
 
 # Explore

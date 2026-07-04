@@ -1,23 +1,16 @@
 ---
 name: study
 description: >
-  Runs a focused learning session modeled after how the human mind actually absorbs something new
-  until it's understood — assimilative, not generative or evaluative. Use this skill whenever the
-  user wants a concept to genuinely stick, not just to be told about it. Trigger on: "/study",
-  "explain X to me properly", "I want to actually learn X and have it stick", "teach me the
-  concept of X", "break this down for me so I actually get it", "quiz me on X", "does my
-  understanding of X hold up",
-  or any prompt where the goal is durable understanding of a fixed topic. This is the assimilative
-  counterpart to /brainstorm (generative) and /thinking (evaluative) — /study neither invents
-  options nor argues to a conclusion, it builds a model of something that already exists and
-  checks whether the model holds. Do not confuse this with two similar-sounding siblings: if the
-  user wants step-by-step instructions to DO or SET UP something ("how do I configure X", "walk me
-  through setting up Y"), that's /guide, not /study — /guide ends in a completed action, /study
-  ends in understanding. If the user has no fixed topic and just wants to wander and see what's
-  interesting ("what's cool about X", "let's poke around Y"), that's /explore, not /study —
-  /explore is open-ended and outward, /study is convergent and inward, working a single named
-  topic until it's actually understood. When in doubt: "make this concept actually stick" means
-  /study.
+  Focused learning session modeled after how the human mind absorbs something new until it's
+  understood — assimilative, not generative or evaluative. Use whenever the user wants a concept
+  to genuinely stick, not just be told about it. Trigger on: "/study", "explain X to me properly",
+  "I want to actually learn X", "teach me the concept of X", "break this down so I get it",
+  "quiz me on X", "does my understanding of X hold up", or any prompt where the goal is durable
+  understanding of a fixed topic. /study builds a mental model and checks whether it holds —
+  it neither invents options (/brainstorm) nor argues to a verdict (/thinking). Not /guide, which
+  ends in a completed action rather than understanding. Not /explore, which wanders open-endedly
+  rather than working one topic until it sticks. When in doubt: "make this concept actually stick"
+  means /study.
 ---
 
 # Study
