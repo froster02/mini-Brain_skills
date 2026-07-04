@@ -1,0 +1,47 @@
+{
+  "skill_name": "thinking",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "/thinking should I quit my stable job to freelance full-time? I've got 6 months of savings and freelance income has been inconsistent so far, some months $8k some months $1k",
+      "expected_output": "Step-by-step reasoning chain landing on a take, grounded in the stated numbers (6 months runway, income variance) rather than generic pros/cons",
+      "files": [],
+      "expectations": [
+        "Output has a '🧭 Starting point' section that reframes the real question, not just restates it",
+        "Output has 3-5 '→' reasoning steps, each 1-2 sentences",
+        "Output has a '🎯 Where this lands' section with a direct take and a stated reason",
+        "Reasoning references the specific numbers given (6 months savings, income variance) rather than staying generic",
+        "The chain surfaces at least one real tension or complication rather than a smooth one-sided case",
+        "Conclusion is a direct take, not a mushy 'it depends, both have merits' non-answer",
+        "Response ends with an invitation naming the specific weakest link in the reasoning, not a generic 'want to know more?'",
+        "Output is not formatted as a pros/cons list or bullet list of options"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "why do so many of our new users sign up and then never come back after day 1?",
+      "expected_output": "Step-by-step reasoning chain that works through possible causes and narrows toward a most-likely explanation, rather than listing generic onboarding tips",
+      "files": [],
+      "expectations": [
+        "Output uses the same 🧭 / → / 🎯 chain format as a decision-shaped prompt, not a different structure",
+        "Reasoning narrows toward a specific likely explanation rather than listing many unranked possibilities",
+        "At least one step distinguishes between competing explanations (e.g. contrasting two possible causes) rather than just asserting one",
+        "Conclusion acknowledges uncertainty appropriately if the given info is insufficient to be fully certain, without becoming a non-answer",
+        "Response ends with an invitation to push on the reasoning further"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "let's think through whether we should rewrite our monolith as microservices, and give me the short version",
+      "expected_output": "Mode-adapted output: skips straight to 🎯 conclusion plus one reason, per the skill's 'give me the short version' mode",
+      "files": [],
+      "expectations": [
+        "Output skips the full → chain of intermediate steps, per the 'short version' mode",
+        "Output still contains a clear take/conclusion (the 🎯 content or equivalent), not just a restated question",
+        "The conclusion includes exactly one key stated reason, not a multi-paragraph justification",
+        "Response is noticeably shorter than a full-chain response would be",
+        "The mode switch happens without the skill announcing or explaining that it's switching modes"
+      ]
+    }
+  ]
+}

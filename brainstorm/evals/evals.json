@@ -1,0 +1,48 @@
+{
+  "skill_name": "brainstorm",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "/brainstorm ideas for a farewell gift for a coworker who's leaving after 5 years",
+      "expected_output": "3-cluster ideation (Wild/Core/Seed), punchy headlines + one-liners, whiteboard energy, closing invitation line",
+      "files": [],
+      "expectations": [
+        "Output has three clearly labeled clusters: Wild Ideas, Core Ideas, Seed Ideas",
+        "Wild Ideas cluster has 2-3 items",
+        "Core Ideas cluster has 3-4 items",
+        "Seed Ideas cluster has 1-2 items",
+        "Each idea has a short headline (roughly 3-7 words) followed by one sentence, not a paragraph",
+        "Tone is energetic and casual, not a formal numbered report",
+        "Response ends with an invitation to go deeper (e.g. asking which idea to dive into)",
+        "No idea is hedged with disclaimers like 'this might not work but'"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "let's brainstorm ways to cut our CI pipeline build time — right now a full run takes 22 minutes and it's killing our iteration speed",
+      "expected_output": "Technical brainstorm reflecting engineering context — Wild Ideas as architectural bets, Core Ideas as concrete engineering approaches, Seed Ideas as experiments worth prototyping",
+      "files": [],
+      "expectations": [
+        "Output uses the three-cluster format (Wild/Core/Seed)",
+        "Ideas are grounded in the stated context (CI pipeline, 22-minute build time) rather than generic advice",
+        "Core Ideas are concrete and technically actionable, not vague platitudes",
+        "Total idea count is roughly 7-9, not an exhaustive list of 15+",
+        "Response ends with an invitation to go deeper or shift direction",
+        "Does not turn into a research report or ask clarifying questions when the topic is already clear enough to run with"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "give me ideas for a birthday party theme, and go wilder with it",
+      "expected_output": "Adapted mode: Wild Ideas cluster dominates, Core Ideas cluster is dropped per the skill's mode-handling instructions",
+      "files": [],
+      "expectations": [
+        "Core Ideas cluster is absent or minimal, since 'go wilder' should drop it per the skill's mode rules",
+        "Wild Ideas cluster is expanded relative to a normal run (more than the default 2-3 items, or clearly the dominant section)",
+        "Ideas are unconventional/surprising rather than safe or practical",
+        "Response still ends with an invitation to continue (dive in, riff further, or shift direction)",
+        "The mode switch happens without the skill announcing or explaining that it's switching modes"
+      ]
+    }
+  ]
+}
