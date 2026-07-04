@@ -19,6 +19,12 @@ Built: `/brainstorm` (divergent ideation), `/thinking` (convergent reasoning), `
 
 There is no build system, package manager, or source code to compile — skills are markdown instruction files consumed directly by Claude Code's skill-loading mechanism.
 
+`agent-skills-docs.md` at repo root is a local reference copy of Anthropic's official Agent Skills docs — consult it for the underlying skill-loading mechanism (progressive disclosure, frontmatter requirements) rather than relying on memory.
+
+## Keep README.md in sync
+
+**Whenever a skill is added, removed, or its description/trigger scope changes materially, update the skill table in [README.md](README.md) in the same change.** README is the discovery surface (skill list, thinking-mode mapping, rationale) — letting it drift from the actual skill set defeats its purpose. This applies even for changes that don't touch CLAUDE.md itself.
+
 ## Skill authoring conventions (established in `brainstorm/SKILL.md`, followed by all skills since)
 
 - **Frontmatter description is the trigger mechanism.** It must state both what the skill does and when to use it, phrased "pushy" enough that Claude doesn't undertrigger it — list explicit trigger phrases (e.g. "/brainstorm", "let's brainstorm", "give me ideas for").
