@@ -4,8 +4,9 @@ description: >
   Runs a focused learning session modeled after how the human mind actually absorbs something new
   until it's understood — assimilative, not generative or evaluative. Use this skill whenever the
   user wants a concept to genuinely stick, not just to be told about it. Trigger on: "/study",
-  "help me understand", "explain X to me properly", "I want to actually learn X", "teach me the
-  concept of X", "break this down for me", "quiz me on X", "does my understanding of X hold up",
+  "explain X to me properly", "I want to actually learn X and have it stick", "teach me the
+  concept of X", "break this down for me so I actually get it", "quiz me on X", "does my
+  understanding of X hold up",
   or any prompt where the goal is durable understanding of a fixed topic. This is the assimilative
   counterpart to /brainstorm (generative) and /thinking (evaluative) — /study neither invents
   options nor argues to a conclusion, it builds a model of something that already exists and
